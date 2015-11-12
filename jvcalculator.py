@@ -149,7 +149,7 @@ def main():
     app = Tk()
     #  Declare the styling.
     s = Style()
-    window = MainWindow(app, s)
+    MainWindow(app, s)
     app.title("JVCalculator")
     app.mainloop()
 
